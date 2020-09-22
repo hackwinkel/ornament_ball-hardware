@@ -1,0 +1,178 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# aconn-balboom
+#
+DEF aconn-balboom U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "aconn-balboom" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -250 50 250 -250 0 1 0 N
+X ad7 1 -200 -350 100 U 50 50 1 1 O
+X gnd 2 -100 -350 100 U 50 50 1 1 W
+X aref 3 0 -350 100 U 50 50 1 1 W
+X ad6 4 100 -350 100 U 50 50 1 1 O
+X avcc 5 200 -350 100 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# atm328-balboom
+#
+DEF atm328-balboom U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "atm328-balboom" 0 -50 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -600 600 600 -600 0 1 0 N
+X D3/3 1 -700 350 100 R 50 50 1 1 T
+X D6/6 10 -250 -700 100 U 50 50 1 1 T
+X D7/7 11 -150 -700 100 U 50 50 1 1 T
+X B0/8 12 -50 -700 100 U 50 50 1 1 T
+X B1/9 13 50 -700 100 U 50 50 1 1 T
+X B2/10 14 150 -700 100 U 50 50 1 1 T
+X B3/11 15 250 -700 100 U 50 50 1 1 T
+X B4/12 16 350 -700 100 U 50 50 1 1 T
+X B5/13 17 700 -350 100 L 50 50 1 1 T
+X avcc 18 700 -250 100 L 50 50 1 1 W
+X AD6 19 700 -150 100 L 50 50 1 1 I
+X D4/4 2 -700 250 100 R 50 50 1 1 T
+X aref 20 700 -50 100 L 50 50 1 1 w
+X gnd 21 700 50 100 L 50 50 1 1 W
+X AD7 22 700 150 100 L 50 50 1 1 I
+X C0/14 23 700 250 100 L 50 50 1 1 T
+X C1/15 24 700 350 100 L 50 50 1 1 T
+X C2/16 25 350 700 100 D 50 50 1 1 T
+X C3/17 26 250 700 100 D 50 50 1 1 T
+X C4/18 27 150 700 100 D 50 50 1 1 T
+X C5/19 28 50 700 100 D 50 50 1 1 T
+X C6/rst 29 -50 700 100 D 50 50 1 1 T
+X gnd 3 -700 150 100 R 50 50 1 1 W
+X D0/rx 30 -150 700 100 D 50 50 1 1 T
+X D1/tx 31 -250 700 100 D 50 50 1 1 T
+X D2/2 32 -350 700 100 D 50 50 1 1 T
+X vcc 4 -700 50 100 R 50 50 1 1 W
+X gnd 5 -700 -50 100 R 50 50 1 1 W
+X vcc 6 -700 -150 100 R 50 50 1 1 W
+X B6/x1 7 -700 -250 100 R 50 50 1 1 T
+X B7/x2 8 -700 -350 100 R 50 50 1 1 T
+X D5/5 9 -350 -700 100 U 50 50 1 1 T
+ENDDRAW
+ENDDEF
+#
+# powcon-balboom
+#
+DEF powcon-balboom U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "powcon-balboom" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 150 -150 -150 50 0 1 0 N
+X + 1 -50 -250 100 U 50 50 1 1 W
+X - 2 50 -250 100 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# procon-balboom
+#
+DEF procon-balboom U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "procon-balboom" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+X vcc 1 -250 200 100 R 50 50 1 1 W
+X gnd 2 -250 100 100 R 50 50 1 1 W
+X reset 3 -250 0 100 R 50 50 1 1 B
+X mosi 4 -250 -100 100 R 50 50 1 1 B
+X miso 5 -250 -200 100 R 50 50 1 1 B
+X sck 6 -250 -300 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# rgbled-balboom
+#
+DEF rgbled-balboom U 0 40 Y Y 1 F N
+F0 "U" 0 50 50 H V C CNN
+F1 "rgbled-balboom" 0 -50 50 H V C CNN
+F2 "" 0 50 50 H I C CNN
+F3 "" 0 50 50 H I C CNN
+DRAW
+S -250 150 250 -150 0 1 0 N
+X B+ 1 -350 100 100 R 50 50 1 1 I
+X R+ 2 -350 0 100 R 50 50 1 1 I
+X G+ 3 -350 -100 100 R 50 50 1 1 I
+X G- 4 350 -100 100 L 50 50 1 1 I
+X R- 5 350 0 100 L 50 50 1 1 I
+X B- 6 350 100 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# scon2-balboom
+#
+DEF scon2-balboom U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "scon2-balboom" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+X vcc 1 -300 0 100 U 50 50 1 1 W
+X sout 2 -200 0 100 U 50 50 1 1 B
+X gnd 3 -100 0 100 U 50 50 1 1 W
+X gnd 4 100 0 100 U 50 50 1 1 W
+X sin 5 200 0 100 U 50 50 1 1 B
+X vcc 6 300 0 100 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# sercon-balboom
+#
+DEF sercon-balboom U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "sercon-balboom" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+X vcc 1 -150 -300 100 U 50 50 1 1 W
+X rx 2 -50 -300 100 U 50 50 1 1 B
+X tx 3 50 -300 100 U 50 50 1 1 B
+X gnd 4 150 -300 100 U 50 50 1 1 W
+X reset 5 250 -300 100 U 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# switch-balboom
+#
+DEF switch-balboom U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "switch-balboom" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -250 -200 250 50 0 1 0 N
+X h 1 -200 -300 100 U 50 50 1 1 W
+X out 2 -100 -300 100 U 50 50 1 1 w
+X in 3 0 -300 100 U 50 50 1 1 w
+X nc 4 100 -300 100 U 50 50 1 1 N
+X h 5 200 -300 100 U 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# xtal-balboom
+#
+DEF xtal-balboom x 0 40 Y Y 1 F N
+F0 "x" 0 0 50 H V C CNN
+F1 "xtal-balboom" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -200 50 200 -50 0 1 0 N
+X x1 1 -300 0 100 R 50 50 1 1 I
+X x2 2 300 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

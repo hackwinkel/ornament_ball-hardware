@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ornament_ball)(type Legacy)(uri ${KIPRJMOD}/ornament_ball.lib)(options "")(descr ""))
+)
